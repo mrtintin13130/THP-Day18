@@ -1,3 +1,4 @@
 class Stroll < ApplicationRecord
-	has_one :stroll
+  has_and_belongs_to_many :dogs
+  belongs_to :dogsitter
 end

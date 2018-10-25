@@ -1,6 +1,4 @@
 class Dogsitter < ApplicationRecord
-	has_many :strolls
-	has_many :dogs, through: :stroll
-	has_one :city
-	
+  belongs_to :city
+  has_many :dogs, through: :cities
 end
