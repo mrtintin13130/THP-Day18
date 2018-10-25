@@ -1,4 +1,4 @@
-# The Hacking Pinterest Project #
+# The Hacking Project #
 
 * *Relational database*
 
